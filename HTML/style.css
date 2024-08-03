@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.container {
+    margin: 0 auto;
+    width: 87%;
+    background-color: lightseagreen;
+    color: darkslategrey;
+    font: normal 1em/1.5 sans-serif;
+}
+
+div.content{
+}
+
+header{
+    overflow: hidden;
+}
+header h1 { 
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+header h2{
+    margin: 0;
+    padding: 0;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 150, 5);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(19, 118, 100);
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: rgb(19, 118, 100);
+}
+
+.active{
+    background-color: rgb(19, 118, 100);
+}
+@media screen and (min-width: 601px){
+    li{
+        width: 25%;
+        margin: 0;
+        float: left;
+        box-sizing: border-box;
+    }
+    nav{
+        overflow: hidden;
+} 
+.teaser, .mission, article{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+}  
+}
+
+*{box-sizing: border-box;}
+div.container {
+    width: 80%;
+    border:  1px solid aqua;
+    margin: 0 auto;
+}
+
+header, footer {
+    padding-top: 1em;
+    color: white;
+    background-color: rgb(6, 95, 95);
+    clear: left;
+    text-align: center;
+}
+nav{
+    background-color: aquamarine;
+    padding: 10px
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    overflow: hidden;
+    background-color: aquamarine;
+}
+/*nav ul {}
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   backgound-color: aquamarine;
+   display: flex;
+   flex-diretion: row;
+   justify-conent: space-aroound; 
+}*/
+
+nav ul li{
+    float: left;
+    width: 25%;
+  }
+  ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+  article {
+    width: 100%;
+    border-left: 1px solid aqua;
+    padding: 1em;
+    overflow: hidden;
+  }
+  div.main{
+
+  }
+  /*.slideshow{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justtify-content: space-around;
+}
+.slideshow a{
+ flex-basis: auto;
+
+}*/
+.cycle-slideshow img{
+    width: 100%;
+}
